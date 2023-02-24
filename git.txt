@@ -1,3 +1,19 @@
 git --version
 git -v 
 to check version of git
+
+git init -----> initialization
+git status -----> to check the status of the repo
+git add --all -----> to convert untracked files to tracked files
+Note: You can only commit tracked files
+git status
+
+
+git commit -m "Changes Commit" ----> commits the file
+git config --global user.name "niissshhaa"
+git config --global user.email "thenishagupta23@gmail.com"
+git commit -m "Changes Commit"
+
+git remote add origin "https://github.com/niissshhaa/Demo.git"
+git push
+git checkout -b "branchname" -----> to change/create the branch
